@@ -9,7 +9,7 @@ Custom Game Engine made with Ogre3D and C++
 - Playable demo game included
 
 # Screenshot Content
-![alt text](https://raw.githubusercontent.com/DaltonFox/SSUGE/master/GitContent/Image_demo.png)
+![alt text](https://raw.githubusercontent.com/DaltonFox/SSUGE/master/GitContent/Image_main.png)
 
 - Requires OGRE3D Installation + Xbox360 Controller
 
