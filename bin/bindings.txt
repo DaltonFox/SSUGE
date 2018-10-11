@@ -1,0 +1,10 @@
+[key-bindings]
+Escape=menu
+Up=vertical:0:1.0
+Down=vertical:0:-1.0
+Left=horizontal:0:-1.0
+Right=horizontal:0:1.0
+
+[mouse-bindings]
+Left=attack
+Right=jump

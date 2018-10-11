@@ -1,0 +1,44 @@
+material "TankMaterial__2"
+{
+	technique TankMaterial__2_technique
+	{
+		pass TankMaterial__2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+			vertex_program_ref TankvsLightGEN0
+			{
+			}
+			fragment_program_ref TankfpLightGENDIFF0
+			{
+			}
+
+			texture_unit TankMaterial__2_Diffuse#0
+			{
+				texture Tankegyptmetal.jpg
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+	technique TankMaterial__2_basic_technique
+	{
+	scheme basic_mat
+		pass TankMaterial__2_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit TankMaterial__2_Diffuse#1
+			{
+				texture Tankegyptmetal.jpg
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}

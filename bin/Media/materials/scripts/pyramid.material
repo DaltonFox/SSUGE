@@ -1,0 +1,48 @@
+material "PyramidSandPyramid"
+{
+	technique PyramidSandPyramid_technique
+	{
+		pass PyramidSandPyramid_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+			vertex_program_ref PyramidvsLightGEN0
+			{
+			}
+			fragment_program_ref PyramidfpLightGENDIFF0
+			{
+			}
+
+			texture_unit PyramidSandPyramid_Diffuse#0
+			{
+				texture Pyramidsandtexture.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 0.5 0.333333
+				scroll 0.5 -1
+			}
+		}
+	}
+	technique PyramidSandPyramid_basic_technique
+	{
+	scheme basic_mat
+		pass PyramidSandPyramid_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			texture_unit PyramidSandPyramid_Diffuse#1
+			{
+				texture Pyramidsandtexture.png
+				tex_coord_set 0
+				colour_op modulate
+				scale 0.5 0.333333
+				scroll 0.5 -1
+			}
+		}
+	}
+}
