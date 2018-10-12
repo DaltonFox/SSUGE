@@ -1,6 +1,6 @@
 # SSUGE - C++ Game Engine with Python Scripting 2018
 
-#### Custom Game Engine made with Ogre3D and C++
+### Custom Game Engine made with Ogre3D and C++
 Technologies learned include: Ogre3D, C++, Objective C, HLSL, OpenGL, Python Embedding, Python Extending, Visual Studio 2017, Blender3D, Object Oriented Programming
 
 - Supports 3D and 2D rendering with Ogre3D
@@ -9,7 +9,7 @@ Technologies learned include: Ogre3D, C++, Objective C, HLSL, OpenGL, Python Emb
 - Supports Physics, Sound, Lighting, Texture Mapping, etc.
 - Playable demo game included
 
-### Screenshot Content
+#### Screenshot Content
 ![alt text](https://raw.githubusercontent.com/DaltonFox/SSUGE/master/GitContent/Image_main.png)
 
 - *Requires OGRE3D Installation + Xbox360 Controller*
